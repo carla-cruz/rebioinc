@@ -9,4 +9,10 @@ class StaticPagesController < ApplicationController
   def our_process
   end
 
+  def location
+  end
+
+  def faq
+  end
+
 end

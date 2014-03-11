@@ -1,7 +1,9 @@
 Rebioinc::Application.routes.draw do
 
   root :to => "static_pages#index"
-   get '/about' => 'static_pages#about', :as => :about
+   get '/our_process' => 'static_pages#our_process', :as => :our_process
+   get '/location' => 'static_pages#location', :as => :location
+   get '/faq' => 'static_pages#faq', :as => :faq
 
    resources :team_members
   # The priority is based upon order of creation: first created -> highest priority.
