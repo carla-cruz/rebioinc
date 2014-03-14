@@ -1,5 +1,6 @@
 Rebioinc::Application.routes.draw do
 
+  devise_for :users
   root :to => "static_pages#index"
    get '/our_process' => 'static_pages#our_process', :as => :our_process
    get '/location' => 'static_pages#location', :as => :location

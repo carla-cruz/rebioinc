@@ -12,16 +12,21 @@
 </head>
 <body>
   <%= render 'shared/top_nav' %>
+  <% if notice %>
+  <p class="alert alert-notice"><%= notice %></p>
+  <% end %>
+  <% if alert %>
+  <p class="alert alert-error"><%= alert %></p>
+  <% end %>
+  <%= yield %>
 
-	<%= yield %>
-
-	
-<script>
+  
+  <script>
   var editor = new wysihtml5.Editor("wysihtml5-textarea", { // id of textarea element
     toolbar:      "wysihtml5-toolbar", // id of toolbar element
     stylesheets:  "<%= stylesheet_path('wysiwyg') %>", // optional, css to style the editor's content
     parserRules:  wysihtml5ParserRules // defined in parser rules set
   });
-</script>
+  </script>
 </body>
 </html>

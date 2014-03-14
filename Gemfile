@@ -15,10 +15,23 @@ gem 'pony'
 gem 'jquery-ui-rails'
 gem "combined_time_select", "~> 1.0.1"
 gem 'wysihtml5-rails'
+
 # gem 'protected_attributes'
 
 group :development do
   gem 'sqlite3'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'launchy'
+  gem 'faker'
+  gem 'database_cleaner'
+  gem 'shoulda'
+  gem 'selenium-webdriver'
+  gem 'zeus'
 end
 
 group :production, :staging do
