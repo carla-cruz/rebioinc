@@ -24,11 +24,11 @@
 #holdingContainer {
   width: 100%; 
   z-index: 1; 
-  height: 700px;
+  height: auto;
 }
 
 #welcome {
-  height: 340px;
+  height: 700px;
   #welcome-title {
     margin-top: 80px;
     background-color: #fff;
@@ -56,5 +56,14 @@
     &:last-child {
       padding-right: 0;
     }
+  }
+
+  #about {
+    background: url('illustration-of-biofuel-renewable-fuel.jpg') repeat;
+    padding: 30px;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 400px;
+    height: 500px;
   }
 }

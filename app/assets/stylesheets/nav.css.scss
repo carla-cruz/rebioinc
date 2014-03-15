@@ -1,6 +1,8 @@
 .navbar-inverse {
   margin: 0;
-
+  img {
+    width: 60px;
+  }
   .navbar-brand,
   .navbar-nav > li > a {
     color: rgb(117, 153, 101);
@@ -18,11 +20,11 @@
 }
 
 .container-fluid {
-  background-color: rgb(54,70,126);
+  background-color: #fff;
 }
 
 .main {
-  padding-top: 25px;
+  
   .active {
     color: #fff !important;
   }
@@ -35,5 +37,5 @@
 .navbar-brand {
     font-size: 20px;
     line-height: .9;
-    padding: 42px 15px 15px;
+    /*padding: 42px 15px 15px;*/
 }
