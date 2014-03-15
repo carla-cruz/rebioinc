@@ -1,0 +1,38 @@
+.navbar-inverse {
+  margin: 0;
+
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color: rgb(117, 153, 101);
+    }
+
+
+  .navbar-toggle .icon-bar {
+    background-color: rgb(117, 153, 101);
+  }
+
+  .navbar-toggle{
+  margin-top:25px;
+  }
+
+}
+
+.container-fluid {
+  background-color: rgb(54,70,126);
+}
+
+.main {
+  .active {
+    color: #fff !important;
+  }
+}
+
+.navbar-fixed-top .navbar-collapse {
+    padding-top: 25px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    line-height: .9;
+    padding: 42px 15px 15px;
+}
