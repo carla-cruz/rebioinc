@@ -1,42 +1,39 @@
 
-<!-- <section>
-<h1>Home page</h1>
-<p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p><p>We offer the following services:</p>
-<ul>
-<li>Branding</li>
-<li>Logos</li>
-<li>Websites</li>
-<li>Web applications</li>
-<li>Web development – HTML5, CSS, jQuery</li>
-<li>Content Management Systems</li>
-<li>Responsive Web Design</li>
-<li>Illustration</li>
-<li>Business cards</li>
-<li>Letterheads and compliment slips</li>
-<li>Flyers</li>
-<li>Mailers</li>
-<li>Appointment cards</li>
-</ul>
-<h1>Sub page</h1>
-<p>Before you choose us to take on your project you will probably want to know a bit more about us, so meet the team:</p>
-<img alt="" src="http://lorempixum.com/500/600" /> <p>Ross has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the company Ross worked as a designer and studio manager for a design house who boasted a number of big name clients. Ross has brought his vast experience from this role to the work he does now.</p>
-<p>Monica is Ross’ sister, our Art Director and specialises in graphic and print design. She has also worked with some big names and her designs have won her a number of industry awards.</p> <p>Rachel and Chandler are our Junior Designers. Rachel is a web designer with knowledge of HTML and CSS and supports Ross on projects. Chandler has just finished his Graphic Design degree and enjoys continuing to learn from Monica and building his experience.</p> <img alt="" src="http://lorempixum.com/500/600/sports" /> <p>Joey and Phoebe focus on bringing new business to the company. They have won a number of big clients recently and both also have qualifications in project management to ensure that the projects run smoothly from start to finish.</p>
-</section> -->
 <div class='bg'></div>
-<div style="postion:absolute; width: 100%; z-index: 1;">
-  <div style="height: 400px;background-color: #fff"></div>
-  <div style="height: 300px;"></div>
-  <div style="height: 400px;background-color: #fff"></div>
+<div style="postion:absolute; width: 100%; z-index: 1; height: 2000px;">
+  <div style="padding-top: 60px;height: 400px;">
+    <div style="margin-top: 100px;padding: 10px;background-color: #fff;width: 600px;">
+      <h1 style="margin-top: 0;">Welcome to Rebio Inc.</h1>
+      <h3>Rebio Reduces Carbon Emissions Through the Re-Purposing of Agricultural Waste Into Clean Energy.</h3>
+    </div>
+  </div>
+  
+  <div style="height: 500px;overflow:hidden;background-color: #fff">
+    <div style="padding: 20px;position: relative: margin: 0 auto;">
+      <h2 style="margin-top: 0;">Our Philosophy</h2>
+      <p style="float:left;width: 300px;padding-right:20px;">Our philosophy is to make the most of what you have. Typically, when a product is made there also is a by-product that is produced. Byproducts tend to be cost centers for businesses, and our business philosophy is to look at byproducts as feedstocks for new products. If you act from this philosophy far enough you “closing the loop” and you end up with no waste.</p>
+
+      <p style="float:left;width: 300px;padding-right:20px;">In our region of Northern California we notice a large amount of grape skins and seeds (pomace) going to compost from the wine industry each year. We consider composting to be a good thing, but we feel that there is latent energy in this substrate that is going to waste on the compost pile.</p> 
+
+      <p style="float:left;width: 300px;padding-right:20px;">Instead of simply decomposing, there is a tremendous amount of clean energy that could be captured before this organic matter becomes fertilizer. At a time when our domestic need for more renewable energy is increasing exponentially, this “byproduct” could be “feedstock” for locally produced energy that could help reduce our in-state carbon footprint.</p>
+
+      <p style="float:left;width: 300px;">We have designed a process that “closes the loop” by creating clean energy from local agricultural waste streams and still puts the final product back to the land in the form of fertilizer. Rooted in the philosophy that there is no such thing as “waste.” we believe that the closer you get in tune with nature the more abundant your life will be. Welcome to ReBio!</p>
+    </div>
+    <img src='assets/rows-of-grapes-before-harvesting.jpg'>
+  </div>
+
 
 </div>
+<div style="height: 300px;">
+  </div>
 
 <script>
 function parallax(){
-    var scrolled = $(window).scrollTop();
-    $('.bg').css('top', -(scrolled * 0.4) + 'px');
+  var scrolled = $(window).scrollTop();
+  $('.bg').css('top', -(scrolled * 0.4) + 'px');
 }
 
 $(window).scroll(function(e){
-    parallax();
+  parallax();
 });
 </script>
