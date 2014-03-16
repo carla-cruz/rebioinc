@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
   
   def index
+    @team_members = TeamMember.all
   end
 
   def our_philosophy
