@@ -17,6 +17,12 @@
     margin-top:25px;
   }
 
+  .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,
+  .navbar-brand:hover, .navbar-inverse .navbar-brand:focus,
+  .main .active {
+    color: rgb(75, 108, 61);
+    }
+
 }
 
 .container-fluid {
@@ -26,9 +32,6 @@
 .main {
   margin-right: 20px;
   
-  .active {
-    color: #fff !important;
-  }
 }
 
 .navbar-fixed-top .navbar-collapse {
