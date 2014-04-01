@@ -34,9 +34,11 @@
   }
 }
 
-#philosophy {
+#philosophy, #team {
   height: auto;
   background-color: #fff;
+  margin:100px 0;
+  
   div {
     padding: 20px;
     position: relative; 
@@ -49,6 +51,10 @@
     float: left;
     &:last-child {
       padding-right: 0;
+    }
+
+    h3{
+    display:inline-block;
     }
   }
 
