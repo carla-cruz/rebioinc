@@ -5,7 +5,7 @@ class TeamMembersController < ApplicationController
 	end
 
 	def new
-    @team_member TeamMember.new
+    @team_member = TeamMember.new
 	end
 
   def create

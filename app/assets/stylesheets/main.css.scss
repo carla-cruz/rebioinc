@@ -24,6 +24,8 @@
   height: auto;
 }
 
+
+
 #welcome {
   #welcome-title {
     color:#fff;
@@ -55,15 +57,25 @@
     }
 
     h3{
-    display:inline-block;
+      display:inline-block;
     }
   }
 
-  #location {
-    width: 100%;
-    height: 400px;
-    background-color: #fff;
-    margin-top: 200px;
+  #proof-of-concept-container {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #444444;
+    color: #ffffff;
+  }
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    width: 100% !important;
+    min-height: 100px !important;
   }
 
 }
@@ -82,26 +94,32 @@
   background-color: #fff;
   margin:100px 0;
   
-    img{
+  img{
     border: solid 2px #fff;
     margin:0 auto 15px auto;
-    }
+  }
 
-    h2{
+  h2{
     display:inline-block;
     padding:15px;
-    }
+  }
 
-    #process-mobile{
-      background-color:#f9eee3;
-      padding:15px 0;
+  #process-mobile{
+    background-color:#f9eee3;
+    padding:15px 0;
 
-      figcaption{
+    figcaption{
       margin:0 auto;
       padding-bottom: 15px;
       width:95%;
 
-      }
     }
+  }
 
 }
+
+#team {
+  margin-bottom: 100px;
+}
+
+

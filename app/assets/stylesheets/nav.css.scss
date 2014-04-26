@@ -7,7 +7,9 @@
   .navbar-nav > li > a {
     color: rgb(117, 153, 101);
     }
-
+    .nav li {
+    display: inline;
+    }
 
   .navbar-toggle .icon-bar {
     background-color: rgb(117, 153, 101);
@@ -29,10 +31,6 @@
   background-color: #fff;
 }
 
-.main {
-  margin-right: 20px;
-  
-}
 
 .navbar-fixed-top .navbar-collapse {
     padding-top: 25px;
@@ -41,5 +39,4 @@
 .navbar-brand {
     font-size: 20px;
     line-height: .9;
-    /*padding: 42px 15px 15px;*/
 }
