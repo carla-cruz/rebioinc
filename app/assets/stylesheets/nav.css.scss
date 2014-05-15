@@ -1,7 +1,8 @@
-.navbar-inverse {
+.navbar {
   margin: 0;
+  
   img {
-    width: 60px;
+    width: 40px;
   }
   .navbar-brand,
   .navbar-nav > li > a {
@@ -24,10 +25,9 @@
   .main .active {
     color: rgb(75, 108, 61);
     }
-
 }
 
-.container-fluid {
+.container {
   background-color: #fff;
 }
 
@@ -36,7 +36,14 @@
     padding-top: 25px;
 }
 
+.nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+    z-index: 111;
+}
 .navbar-brand {
     font-size: 20px;
     line-height: .9;
 }
+

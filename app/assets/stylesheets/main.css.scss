@@ -4,27 +4,23 @@
   position: fixed;
   padding-top: 300px;
   width: 100%;
-  height: 2000px;
+  min-height: 3000px;
   top:0;
   left:0;
   z-index: -1;
 }
-.bg2 {
-  position: fixed;
+
+.spacer {
+  height: 100px;
   width: 100%;
-  height: 300px;
-  top: 400px;
-  left: 0;
-  z-index: -1;
 }
 
 #holdingContainer {
   width: 100%; 
-  z-index: 1; 
+  z-index: 0; 
   height: auto;
+  padding-top: 100px;
 }
-
-
 
 #welcome {
   #welcome-title {
@@ -38,10 +34,9 @@
 }
 
 #philosophy, #team {
-  height: auto;
   background-color: #fff;
   margin:100px 0;
-  
+
   div {
     padding: 20px;
     position: relative; 
@@ -61,22 +56,7 @@
     }
   }
 
-  #proof-of-concept-container {
-    margin-top: 80px;
-    margin-bottom: 30px;
-    background-color: #444444;
-    color: #ffffff;
-  }
-  .google-maps {
-    position: relative;
-    padding-bottom: 75%; 
-    height: 0;
-    overflow: hidden;
-  }
-  .google-maps iframe {
-    width: 100% !important;
-    min-height: 100px !important;
-  }
+
 
 }
 
@@ -93,7 +73,7 @@
 #process{
   background-color: #fff;
   margin:100px 0;
-  
+
   img{
     border: solid 2px #fff;
     margin:0 auto 15px auto;
@@ -118,8 +98,22 @@
 
 }
 
-#team {
-  margin-bottom: 100px;
-}
-
+#proof-of-concept-container {
+    margin: 0 auto;
+    margin-bottom: 150px;
+    background-color: #444444;
+    color: #ffffff;
+    padding: 20px;
+    width: 90%;
+  }
+  .google-maps {
+    position: relative;
+    padding-bottom: 40%; 
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    width: 100% !important;
+    min-height: 100px !important;
+  }
 
