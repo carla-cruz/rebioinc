@@ -13,13 +13,17 @@ gem 'twitter-bootstrap-rails'
 gem 'nested_form'
 gem 'pony'
 gem 'jquery-ui-rails'
-gem "combined_time_select", "~> 1.0.1"
+gem 'jquery-turbolinks'
+gem 'simple_form'
+gem "activerecord-tableless", "~> 1.0"
+gem 'google_drive'
+gem "figaro"
 gem 'wysihtml5-rails'
-
-# gem 'protected_attributes'
 
 group :development do
   gem 'sqlite3'
+  gem 'better_errors'
+  gem 'quiet_assets'
 end
 
 group :test do
