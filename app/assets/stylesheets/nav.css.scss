@@ -1,12 +1,17 @@
 .navbar {
   margin: 0;
-  
+  background-color: #fff;
+  a {
+    text-transform: uppercase;
+    margin: 0 30px;
+  }
   img {
     width: 40px;
   }
   .navbar-brand,
   .navbar-nav > li > a {
     color: rgb(117, 153, 101);
+
     }
     .nav li {
     display: inline;
@@ -36,6 +41,10 @@
     padding-top: 25px;
 }
 
+.navbar-fixed-top .navbar-collapse {
+padding-top: 4px;
+}
+
 .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
@@ -43,7 +52,8 @@
     z-index: 111;
 }
 .navbar-brand {
-    font-size: 20px;
+    font-size: 30px;
     line-height: .9;
+    text-transform: none !important;
 }
 
