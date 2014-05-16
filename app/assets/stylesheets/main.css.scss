@@ -155,20 +155,31 @@
   padding-top: 30px;
 }
 
+.spacer1 span, .spacer2 span, .spacer3 span {
+  font-weight: 700;
+}
+
+
+
 #proof-of-concept-container {
   margin-bottom: 150px;
-  background-color: rgba(250, 250, 250, 0.3);
+  background-color: rgba(250, 250, 250, 0.8);
   padding: 20px;
   height: 800px;
   width: 100%;
+  .google-maps {
+    position: relative;
+    padding-bottom: 40%; 
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    width: 100% !important;
+    min-height: 100px !important;
+  }
 }
-.google-maps {
-  position: relative;
-  padding-bottom: 40%; 
-  height: 0;
-  overflow: hidden;
-}
-.google-maps iframe {
-  width: 100% !important;
-  min-height: 100px !important;
+
+.spacer4 {
+  height: 800px;
+  padding-top: 400px;
 }
