@@ -2,11 +2,14 @@ Rebioinc::Application.routes.draw do
 
   devise_for :users
   root :to => "static_pages#index"
-   get '/our_process' => 'static_pages#our_process', :as => :our_process
-   get '/location' => 'static_pages#location', :as => :location
-   get '/faq' => 'static_pages#faq', :as => :faq
+  get '/our_process' => 'static_pages#our_process', :as => :our_process
+  get '/location' => 'static_pages#location', :as => :location
+  get '/faq' => 'static_pages#faq', :as => :faq
 
-   resources :team_members
+  resources :team_members
+
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contact", only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

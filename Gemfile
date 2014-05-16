@@ -19,6 +19,7 @@ gem "activerecord-tableless", "~> 1.0"
 gem 'google_drive'
 gem "figaro"
 gem 'wysihtml5-rails'
+gem 'mail_form'
 
 group :development do
   gem 'sqlite3'
