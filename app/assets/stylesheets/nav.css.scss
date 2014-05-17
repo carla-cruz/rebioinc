@@ -8,10 +8,15 @@
   img {
     width: 40px;
   }
+
+  .navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
   .navbar-brand,
   .navbar-nav > li > a {
     color: rgb(117, 153, 101);
-
     }
     .nav li {
     display: inline;

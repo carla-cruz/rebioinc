@@ -1,0 +1,22 @@
+<!-- list out the team members -->
+<!-- list out the statements -->
+<!-- list out the faqs -->
+<!-- add edit and delete capability -->
+
+<!-- figure out if I can make a background image move -->
+<div class="admin-container">
+
+  <% @team_members.each do |tm| %>
+    <%= tm.first_name %>
+    <%= tm.last_name %>
+    <%= tm.title%>
+    <%= tm.bio %>
+  <% end %>
+
+  <% @faqs.each do |faq| %>
+    <%= faq.question %>
+    <%= faq.answer %>
+  <% end %>
+
+
+</div>

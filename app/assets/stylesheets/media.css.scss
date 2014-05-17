@@ -36,14 +36,33 @@
     padding-top: 0px !important;
   }
 
-  #welcome {
+  .block {
     height: 800px !important;
-    #welcome-title {
+    .block-copy {
       margin-top: 0px !important;
     }
   }
+  .block2 {
+    padding-top: 30px !important;
+    height: 500px !important;
+  }
 
+  .block3 {
+    padding-top: 30px !important;
+    height: 400px !important;
+  }
+  .block4 {
+    padding-top: 30px !important;
+    height: 400px !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    h2 {
+      width: auto;
+    }
+  }
 
+  .block5 {
+    display: none !important;
+  }
 }
 
 /* Landscape phones and down */
@@ -55,6 +74,9 @@
       width: 100% !important;
       margin: 0 auto !important;
     }
+  }
+  #philosophy {
+    font-size: 22px !important;
   }
   
 }

@@ -5,16 +5,10 @@ class StaticPagesController < ApplicationController
     @team_members = TeamMember.all
   end
 
-  def our_philosophy
-  end
-
-  def our_process
-  end
-
-  def location
-  end
-
-  def faq
+  def admin
+    @test = "TESTSETETSTSETSETSETSETSETEST"
+    @team_members = TeamMember.all
+    @faqs = Faq.all
   end
 
 end
