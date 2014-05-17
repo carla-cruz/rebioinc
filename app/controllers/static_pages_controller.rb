@@ -6,7 +6,6 @@ class StaticPagesController < ApplicationController
   end
 
   def admin
-    @test = "TESTSETETSTSETSETSETSETSETEST"
     @team_members = TeamMember.all
     @faqs = Faq.all
   end
