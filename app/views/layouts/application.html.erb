@@ -29,7 +29,9 @@
     parserRules:  wysihtml5ParserRules // defined in parser rules set
   });
   </script>
+  <% if user_signed_in? %>
   <%= render 'shared/admin_nav' %>
+  <% end %>
 
 </body>
 </html>
