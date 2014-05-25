@@ -14,9 +14,9 @@
       width: 100% !important;
     }
   }
-  .nav li a {
+  /*.nav li a {
     margin: 0 !important;
-  }
+  }*/
   
 }
 
@@ -29,15 +29,15 @@
       width: 100% !important;
     }
   }
-
-
-
+  .navbar {
+      height: 80px !important;
+    }
   .bg1 {
     padding-top: 0px !important;
   }
 
   .block {
-    height: 800px !important;
+    margin-top: 120px;
     .block-copy {
       margin-top: 0px !important;
     }
@@ -67,6 +67,7 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
+
   body { 
     font-size:100%;
     margin: 0;
@@ -74,7 +75,9 @@
       width: 100% !important;
       margin: 0 auto !important;
     }
+
   }
+  
   #philosophy {
     font-size: 22px !important;
   }

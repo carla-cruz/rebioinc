@@ -2,9 +2,13 @@
   margin: 0;
   background-color: #fff;
   height: 160px;
+  .container {
+    background-color: #fff;
+    width: 80%;
+  }
   a {
     text-transform: uppercase;
-    margin: 40px 40px;
+    
   }
   img {
     width: 40px;
@@ -18,11 +22,11 @@
   .navbar-brand,
   .navbar-nav > li > a {
     color: rgb(117, 153, 101);
-    }
-    .nav li {
+  }
+  .nav li {
     display: inline;
-    margin: 40px 40px;
-    }
+    
+  }
 
   .navbar-toggle .icon-bar {
     background-color: rgb(117, 153, 101);
@@ -36,33 +40,29 @@
   .navbar-brand:hover, .navbar-inverse .navbar-brand:focus,
   .main .active {
     color: rgb(75, 108, 61);
-    }
+  }
 }
 
-.container {
-  background-color: #fff;
-  margin-left: 5%;
-  width: 1200px;
-}
+
 
 
 .navbar-fixed-top .navbar-collapse {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .navbar-fixed-top .navbar-collapse {
-padding-top: 4px;
+  padding-top: 4px;
 }
 
 .nav-collapse.collapse {
-    height: auto !important;
-    overflow: visible !important;
-    display: block !important;
-    z-index: 111;
+  height: auto !important;
+  overflow: visible !important;
+  display: block !important;
+  z-index: 111;
 }
 .navbar-brand {
-    font-size: 30px;
-    line-height: .9;
-    text-transform: none !important;
+  font-size: 30px;
+  line-height: .9;
+  text-transform: none !important;
 }
 
