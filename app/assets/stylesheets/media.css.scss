@@ -8,36 +8,37 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 767px) and (max-width: 959px) { 
   body { 
-    font-size:120%;
+    /*font-size:120%;*/
     margin: 0;
     .container {
       width: 100% !important;
     }
   }
-  .nav li a {
-    margin: 0 !important;
+  .block {
+    background-color: none !important;
   }
-  
+  .block-copy {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.2) !important;
+  }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
   body { 
-    font-size:110%;
+    /*font-size:110%;*/
     margin: 0;
     .container {
       width: 100% !important;
     }
   }
-
-
-
   .bg1 {
     padding-top: 0px !important;
   }
-
   .block {
-    height: 800px !important;
+    background-color: none !important;
+    /*margin-top: 120px;*/
     .block-copy {
       margin-top: 0px !important;
     }
@@ -46,37 +47,22 @@
     padding-top: 30px !important;
     height: 500px !important;
   }
-
   .block3 {
     padding-top: 30px !important;
     height: 400px !important;
   }
-  .block4 {
-    padding-top: 30px !important;
-    height: 400px !important;
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    h2 {
-      width: auto;
-    }
-  }
-
-  .block5 {
-    display: none !important;
+  .block-copy {
+    background-color: rgba(0, 0, 0, 0.2) !important;
   }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
   body { 
-    font-size:100%;
+    /*font-size:100%;*/
     margin: 0;
-    .container {
-      width: 100% !important;
-      margin: 0 auto !important;
-    }
   }
   #philosophy {
     font-size: 22px !important;
   }
-  
 }
