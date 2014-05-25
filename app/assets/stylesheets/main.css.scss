@@ -28,16 +28,18 @@
 }
 
 .block {
-  clear: both;
   width: 100%;
-  height: 200px;
-  padding-top: 120px;
-  background-color: rgba(0, 0, 0, 0.3);
+  height: 250px;
+  padding-top: 110px;
+  background-color: rgba(0, 0, 0, 0.2);
   .block-copy {
     color:#fff;
     float: none;
+    padding: 20px;
+    padding-top: 100px;
+    margin: 0 20px;
     .center-block {
-      margin:25px auto;
+      margin:0 auto;
       float:none;
     }
     h2 {
@@ -58,9 +60,8 @@
 .block3 {
   margin: 0;
   height: 500px;
-  padding-top: 100px;
   .block-copy {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 }
 
@@ -88,7 +89,7 @@
 }
 
 #team {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #ffffff;
   div {
     padding: 20px;
     position: relative; 
