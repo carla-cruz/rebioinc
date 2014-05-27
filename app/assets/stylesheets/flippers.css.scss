@@ -1,12 +1,12 @@
 @media (max-width: 767px) {
-    .outer-flipper {
-      -moz-transform: scale(.75) rotate(45deg);
-      -webkit-transform: scale(.75) rotate(45deg);
-      -o-transform: scale(.75) rotate(45deg);
-      -ms-transform: scale(.75) rotate(45deg);
-      transform: scale(.75) rotate(45deg);
-    }
- }
+  .outer-flipper {
+    -moz-transform: scale(.75) rotate(45deg);
+    -webkit-transform: scale(.75) rotate(45deg);
+    -o-transform: scale(.75) rotate(45deg);
+    -ms-transform: scale(.75) rotate(45deg);
+    transform: scale(.75) rotate(45deg);
+  }
+}
 
 .flippers-container {
   width: 90%;
@@ -14,8 +14,8 @@
   position: relative;
   font-size: 0;
   h2 {
-  margin:0 auto !important;
-  width:90%;
+    margin:0 auto !important;
+    width:90%;
   }
   h3 {
     margin: 0 !important;
@@ -32,55 +32,60 @@
     overflow: hidden;
     text-align: center;
     -moz-transform: rotate(45deg);
--webkit-transform: rotate(45deg);
--o-transform: rotate(45deg);
--ms-transform: rotate(45deg);
-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 
   }
 
   .outer-flipper.one {
     background: url('/assets/Biomodel_01.jpg') no-repeat center center;
-      div{margin:40px -36px;}
-    }
+    div{margin:40px -36px;}
+    
+  }
+  .outer-flipper.one:hover {
+    background-color: rgba(82,165,216,.5);
+  } 
+
   .outer-flipper.two {
     background: url('/assets/Biomodel_02.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.three {
     background: url('/assets/Biomodel_03.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.four {
     background: url('/assets/Biomodel_04.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.five {
     background: url('/assets/Biomodel_05.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.six {
     background: url('/assets/Biomodel_06.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.seven {
     background: url('/assets/Biomodel_07.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.eight {
     background: url('/assets/Biomodel_08.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.nine {
     background: url('/assets/Biomodel_09.jpg') no-repeat center center;
-    }
+  }
   .outer-flipper.ten {
     background: url('/assets/Biomodel_10.jpg') no-repeat center center;
-    }
+  }
 
 
 
-    .outer-flipper.three {left: 251px; top: -218px;}
-    .outer-flipper.four {right: 513px; top: 51px;}
-    .outer-flipper.five {left: 520px; top: -451px;}
-    .outer-flipper.six {right: 246px; top: -184px;}
-    .outer-flipper.seven {right: 13px; top: -422px;}
-    .outer-flipper.eight {left: 21px; top: -419px;}
-    .outer-flipper.nine {left: 254px; top: -659px;}
-    .outer-flipper.ten {right: 511px; top: -396px;}
+  .outer-flipper.three {left: 251px; top: -218px;}
+  .outer-flipper.four {right: 513px; top: 51px;}
+  .outer-flipper.five {left: 520px; top: -451px;}
+  .outer-flipper.six {right: 246px; top: -184px;}
+  .outer-flipper.seven {right: 13px; top: -422px;}
+  .outer-flipper.eight {left: 21px; top: -419px;}
+  .outer-flipper.nine {left: 254px; top: -659px;}
+  .outer-flipper.ten {right: 511px; top: -396px;}
 
   .outer-flipper:hover {background:none;}
 
@@ -93,7 +98,7 @@ transform: rotate(45deg);
     padding:15px;
     position: relative;
     width: 330px;
-    height: atuo;
+    height: auto;
     z-index: 5;
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
