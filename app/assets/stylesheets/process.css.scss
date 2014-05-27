@@ -1,0 +1,172 @@
+.our-process-container {
+  position: relative;
+  width: 850px;
+  margin: 0 auto;
+  z-index: 1;
+  p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  img {
+    width: 850px;
+    position: absolute;
+    z-index: -1;
+  }
+  .outerTip {
+    padding: 20px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    
+    img {
+      width: 15px;
+      position: absolute;
+      z-index: 1;
+    }
+    .big {
+      width: 30px;
+    }
+    .innerTip {
+      border-radius: 3px;
+      border: 3px solid #1F2123;
+      padding: 10px;
+      background-color: #fff;
+    }
+  }
+
+  .tip1 {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    width: 400px;
+    img {
+      left: -50px;
+      top: 40px;
+    }
+  }
+
+  .tip2 {
+    position: absolute;
+    top: 220px;
+    left: 350px;
+    width: 300px;
+    img {
+      left: 85px;
+      top: 5px;
+    }
+  }
+
+  .tip3 {
+    position: absolute;
+    top: 0px;
+    left: 390px;
+    width: 300px;
+    img {
+      right: 6px;
+      top: 130px;
+    }
+  }
+
+  .tip4 {
+    position: absolute;
+    top: 100px;
+    right: 420px;
+    width: 300px;
+    img {
+      right: 5px;
+      top: 160px;
+    }
+  }
+
+  .tip5 {
+    position: absolute;
+    bottom: 280px;
+    left: 560px;
+    width: 360px;
+    img {
+      right: 185px;
+      bottom: 5px;
+    }
+  }
+
+  .tip6 {
+    position: absolute;
+    bottom: 0px;
+    left: 650px;
+    width: 200px;
+    img {
+      bottom: 30px;
+      left: -50px;
+    }
+  }
+
+  .tip7 {
+    position: absolute;
+    bottom: 320px;
+    left: 395px;
+    width: 200px;
+    img {
+      left: 40px;
+      bottom: 5px;
+    }
+  }
+
+  .tip8 {
+    position: absolute;
+    bottom: 0px;
+    right: 630px;
+    width: 200px;
+    img {
+      right: 5px;
+      bottom: 30px;
+    }
+  }
+
+  .tip9 {
+    position: absolute;
+    bottom: 280px;
+    right: 600px;
+    width: 340px;
+    img {
+      bottom: 5px;
+      left: 190px;
+    }
+  }
+
+  .tip10 {
+    position: absolute;
+    bottom: 390px;
+    right: 430px;
+    width: 300px;
+    img {
+      left: -50px;
+      top: 120px;
+    }
+  }
+
+  .tip11 {
+    position: absolute;
+    top: 150px;
+    left: 420px;
+    width: 200px;
+    img {
+      top: 80px;
+      left: -50px;
+    }
+  }
+
+  .cross {
+    font-size: 40px;
+    float: right;
+    margin-top: -20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    a {
+      text-decoration: none;
+    }
+  }
+
+}
+.add-margin-to-p {
+  margin-top: 10px;
+}
