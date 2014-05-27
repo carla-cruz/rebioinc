@@ -9,7 +9,9 @@
   }
   a {
     text-transform: uppercase;
-    
+    &:hover {
+      opacity: .6;
+    }
   }
   img {
     width: 40px;
