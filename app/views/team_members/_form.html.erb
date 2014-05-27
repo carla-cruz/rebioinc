@@ -1,7 +1,5 @@
 
-<%= form_for @team_member, :html => {:id => "new_team_member", :class => "form form-inline"} do |f| %>
-<h2>Add Team Member</h2>
-<a class="close" href="">X</a>
+<%= form_for @team_member, :html => {:id => "team_member", :class => "form form-inline"} do |f| %>
 <div class="form-inline">
   <div class="form-group col-xs-12">
     <%= f.text_field :title, class: "form-control", placeholder: "team member title" %>

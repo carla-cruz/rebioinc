@@ -1,5 +1,6 @@
 class FaqsController < ApplicationController
-
+  before_filter :is_admin?, except: [:index]
+  
   def index
     @faqs = Faq.all
   end
@@ -20,11 +21,11 @@ class FaqsController < ApplicationController
   def update
     @faq = Faq.find(params[:id])
     @faq.update_attributes(faq_params)
-    redirect_to root_path
+    redirect_to admin_path
   end
 
   def destroy
-    @category = Faq.destroy(params[:id])
+    @faq = Faq.destroy(params[:id])
     respond_to do |format|
       format.html { redirect_to admin_path }
       format.js

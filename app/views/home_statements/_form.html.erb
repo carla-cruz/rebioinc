@@ -1,0 +1,10 @@
+
+<%= form_for @hs, :html => {:id => "home_statement", :class => "form form-inline"} do |f| %>
+<div class="form-inline">
+  <div class="form-group col-xs-12">
+    <%= f.text_field :phrase, class: "form-control", placeholder: "your phrase here" %>
+  </div>
+</div>
+<%= f.submit class: "btn btn-primary" %>
+
+<% end %>
