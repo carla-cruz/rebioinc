@@ -1,3 +1,17 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 70px;
+  background-color: #ffffff;
+  p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+}
 
 .bg1 {
   background: url('sky-and-grass.jpg') no-repeat;
@@ -170,11 +184,40 @@
   ul li {
     list-style: none;
   }
+  ol {
+    margin-left: 20px;
+  }
   .admin-links {
     margin-bottom: 20px;
+    a {
+      margin-right: 20px;
+      
+    }
+    .delete_link {
+        color: red;
+      }
+  }
+  span {
+    font-size: 14px;
+    font-weight: 400;
   }
 }
 
 .center-block {
   margin: 0 auto;
+}
+
+form input {
+  margin-top: 20px;
+}
+
+input[type=submit]:hover {
+  opacity: .8;
+}
+
+p.alert {
+  background-color: rgba(255,255,255,.8);
+  text-align: center;
+  padding: 0;
+  padding-top: 10px;
 }

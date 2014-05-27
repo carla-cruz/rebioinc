@@ -1,7 +1,5 @@
 
-<%= form_for @faq, :html => {:id => "new_faq", :class => "form form-inline"} do |f| %>
-<h2>Add FAQ</h2>
-<a class="close" href="">X</a>
+<%= form_for @faq, :html => {:id => "faq", :class => "form form-inline"} do |f| %>
 <div class="form-inline">
   <div class="form-group col-xs-12">
     <%= f.text_field :question, class: "form-control", placeholder: "question" %>

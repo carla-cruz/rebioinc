@@ -1,5 +1,6 @@
 class FaqsController < ApplicationController
-
+  before_filter :is_admin?, except: [:index]
+  
   def index
     @faqs = Faq.all
   end

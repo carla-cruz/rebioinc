@@ -1,5 +1,6 @@
 class TeamMembersController < ApplicationController
-
+  before_filter :is_admin?, except: [:index]
+  
 	def index
     @team_members = TeamMember.all
 	end

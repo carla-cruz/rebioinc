@@ -9,56 +9,57 @@
   <h1>Admin Page</h1>
 
   <div class="members">
-    <h3>Team Members</h3>
+    <h3>Team Members <span><%= link_to "add another", new_team_member_path %><span></h3>
     <ul class="clearfix col-xs-12">
       <% @team_members.each do |tm| %>
       <li>
         Name: <%= tm.first_name %> <%= tm.last_name %>
-      </li>
-      <li>
+        <br>
         Title: <%= tm.title%>
-      </li>
-      <li>
+        <br>
         Bio: <%= tm.bio %>
-      </li>
-      <li class="admin-links">
-        <%= link_to "Delete", tm, method: :delete, class: "delete_link", remote: true %>
-        <%= link_to "Edit", edit_team_member_path(tm), class: "edit_link" %>
+        <div class="admin-links">
+          <%= link_to "Edit", edit_team_member_path(tm), class: "edit_link" %>
+          <%= link_to "Delete", tm, method: :delete, class: "delete_link", remote: true %>
+
+        </div>
       </li>
       <% end %>
     </ul>
   </div>
 
   <div class="faqs">
-    <h3>Frequently Asked Questions</h3>
+    <h3>Frequently Asked Questions <span><%= link_to "add another", new_faq_path %><span></h3>
     <ul class="clearfix col-xs-12">
       <% @faqs.each do |faq| %>
       <li>
         Q: <%= faq.question %>
+        <br>
         A: <%= faq.answer %>
+        <div class="admin-links">
+          <%= link_to "Edit", edit_faq_path(faq), class: "edit_link" %>
+          <%= link_to "Delete", faq, method: :delete, class: "delete_link", remote: true %>
+
+        </div>
       </li>
-      <li class="admin-links">
-        <%= link_to "Delete", faq, method: :delete, class: "delete_link", remote: true %>
-        <%= link_to "Edit", edit_faq_path(faq), class: "edit_link" %>
-      </li>
-      
       <% end %>
     </ul>
   </div>
 
-<div class="hs">
-  <h3>Home Page Statements</h3>
-  <ol class="clearfix col-xs-12">
-    <% @hs.each do |hs| %>
-    <li>
-      <%= hs.phrase %>
-    </li>
-    <div class="admin-links">
-      <%= link_to "Delete", hs, method: :delete, class: "delete_link", remote: true %>
-      <%= link_to "Edit", edit_home_statement_path(hs), class: "edit_link" %>
-    </div>
-    <% end %>
-  </ul>
-</div>
+  <div class="hs">
+    <h3>Home Page Statements</h3>
+    <ol class="clearfix col-xs-12">
+      <% @hs.each do |hs| %>
+      <li>
+        <%= hs.phrase %>
+        <div class="admin-links">
+          <%= link_to "Edit", edit_home_statement_path(hs), class: "edit_link" %>
+          <%= link_to "Delete", hs, method: :delete, class: "delete_link", remote: true %>
+          
+        </div>
+      </li>
+      <% end %>
+    </ul>
+  </div>
 
 </div>
