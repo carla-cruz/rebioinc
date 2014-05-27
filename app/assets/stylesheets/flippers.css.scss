@@ -9,8 +9,9 @@
 }
 
 .flippers-container {
-  width: 90%;
+  width: 1055px;
   margin: 25px auto;
+  min-height:1300px;
   position: relative;
   letter-spacing:1px;
   h2 {
@@ -21,10 +22,9 @@
   }
   .outer-flipper {
     color:#fff;
-    position: relative;
+    position: absolute;
     width: 265px;
     height: 265px;
-    display: inline-block;
     font-size: 0;
     margin:75px;
     overflow: hidden;
@@ -38,11 +38,10 @@
 
   .outer-flipper-heading {
     background-color:#fff;
-    position: relative;
+    position: absolute;
     width: 265px;
     height: 265px;
-    display: inline-block;
-    margin:75px;
+    margin:75px 75px 75px 15px;
     overflow: hidden;
     text-align: center;
     -moz-transform: rotate(45deg);
@@ -63,8 +62,7 @@
 
   .outer-flipper.one {
     background: url('/assets/Biomodel_01.jpg') no-repeat center center;
-    div{margin:40px -36px;}
-    
+    div{margin:64px -4px;}
   }
   .outer-flipper.one:hover {
     background-color: #e5372a;
@@ -132,27 +130,32 @@
         background-color: #849604;
       } 
 
-  .outer-flipper-heading {right: 75px;}
-  .outer-flipper.one {right: 120px;}
-  .outer-flipper.two {left: 675px;top: -421px;}
-  .outer-flipper.three {left: 69px; top: -191px;}
-  .outer-flipper.four {left: 112px; top: -610px;}
-  .outer-flipper.five {right: 490px; top: -380px;}
-  .outer-flipper.six {left: 301px; top: -801px;}
-  .outer-flipper.seven { left: 258px; top: -801px;}
-  .outer-flipper.eight {left: 490px; top: -985px;}
-  .outer-flipper.nine {right: 301px; top: -986px;}
-  .outer-flipper.ten {left: 302px; top: -1173px;}
+
+ .outer-flipper.one{left:317px;}
+ .outer-flipper.two{right:-55px;}
+ .outer-flipper.three{right: 133px; top: 219px;}
+ .outer-flipper.four{left: 131px; top: 219px;}
+ .outer-flipper.five{left: -57px; top: 431px;}
+ .outer-flipper.six{left: 320px; top: 431px;}
+ .outer-flipper.seven{right: -55px; top: 431px;}
+ .outer-flipper.eight{left: 131px; top: 644px;}
+ .outer-flipper.nine{right: 133px; top: 644px;}
+ .outer-flipper.ten{left: 320px; top: 859px;}
+
 
   .outer-flipper:hover {
     background:none;
-    -moz-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -moz-transform: rotate(45deg) translateX(-15px) translateY(-23px);
+    -webkit-transform: rotate(45deg) translateX(-15px) translateY(-23px);
+    -o-transform: rotate(45deg) translateX(-15px) translateY(-23px);
+    -ms-transform: rotate(45deg) translateX(-15px) translateY(-23px);
+    transform: rotate(45deg) translateX(-15px) translateY(-23px);
+    width:315px;
+    height:315px;;
+    z-index:10;
   }
 
+  .outer-flipper.two div {margin: 58px 19px;}
   .outer-flipper.five div {margin: 4px auto; padding: 29px;}
   .outer-flipper.ten div {margin: 0 auto; padding: 46px;}
 
@@ -161,7 +164,7 @@
     margin: 40px auto;
     padding:15px;
     position: relative;
-    width: 330px;
+    width: 315px;
     height: auto;
     z-index: 5;
     -moz-transform: rotate(-45deg);
