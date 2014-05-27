@@ -20,7 +20,7 @@ gem 'google_drive'
 gem "figaro"
 gem 'wysihtml5-rails'
 gem 'mail_form'
-gem 'rake', '~> 10.1.1'
+gem 'rake', '~> 10.3.1'
 
 group :development do
   gem 'sqlite3'
