@@ -12,9 +12,10 @@
   width: 90%;
   margin: 25px auto;
   position: relative;
-  font-size: 0;
+  letter-spacing:1px;
   h2 {
     margin:0 auto !important;
+    text-transform:uppercase;
     width:90%;
   }
   h3 {
@@ -22,10 +23,10 @@
     font-size:20px;
   }
   .outer-flipper {
+    color:#fff;
     position: relative;
-    width: 350px;
-    height: 350px;
-    border: 1px solid gray;
+    width: 275px;
+    height: 275px;
     display: inline-block;
     font-size: 0;
     margin:75px;
@@ -36,6 +37,30 @@
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  .outer-flipper-heading {
+    background-color:#fff;
+    position: relative;
+    width: 275px;
+    height: 275px;
+    display: inline-block;
+    margin:75px;
+    overflow: hidden;
+    text-align: center;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+      h1 {
+        margin: 0 57px 40px 0;
+        text-transform:uppercase;
+        font-size:50px;
+        line-height:1;
+      }
+      .inner-flipper{display:block !important;}
 
   }
 
@@ -45,49 +70,92 @@
     
   }
   .outer-flipper.one:hover {
-    background-color: rgba(82,165,216,.5);
+    background-color: #e5372a;
   } 
 
   .outer-flipper.two {
     background: url('/assets/Biomodel_02.jpg') no-repeat center center;
   }
+      .outer-flipper.two:hover {
+        background-color: #a96a21;
+      } 
+
   .outer-flipper.three {
     background: url('/assets/Biomodel_03.jpg') no-repeat center center;
   }
+      .outer-flipper.three:hover {
+        background-color: #028833;
+      } 
+
   .outer-flipper.four {
     background: url('/assets/Biomodel_04.jpg') no-repeat center center;
   }
+      .outer-flipper.four:hover {
+        background-color: #2e8273;
+      } 
+
   .outer-flipper.five {
     background: url('/assets/Biomodel_05.jpg') no-repeat center center;
   }
+      .outer-flipper.five:hover {
+        background-color: #de9301;
+      } 
+
   .outer-flipper.six {
     background: url('/assets/Biomodel_06.jpg') no-repeat center center;
   }
+      .outer-flipper.six:hover {
+        background-color: #028833;
+      } 
+
   .outer-flipper.seven {
     background: url('/assets/Biomodel_07.jpg') no-repeat center center;
   }
+      .outer-flipper.seven:hover {
+        background-color: #494948;
+      } 
+
   .outer-flipper.eight {
     background: url('/assets/Biomodel_08.jpg') no-repeat center center;
   }
+      .outer-flipper.eight:hover {
+        background-color: #3f7854;
+      } 
+
   .outer-flipper.nine {
     background: url('/assets/Biomodel_09.jpg') no-repeat center center;
   }
+      .outer-flipper.nine:hover {
+        background-color: #cf5e02;
+      } 
   .outer-flipper.ten {
     background: url('/assets/Biomodel_10.jpg') no-repeat center center;
   }
+      .outer-flipper.ten:hover {
+        background-color: #849604;
+      } 
 
 
-
-  .outer-flipper.three {left: 251px; top: -218px;}
-  .outer-flipper.four {right: 513px; top: 51px;}
-  .outer-flipper.five {left: 520px; top: -451px;}
-  .outer-flipper.six {right: 246px; top: -184px;}
+  .outer-flipper-heading {left: 300px;}    
+  .outer-flipper.one {right: 468px; top: 259px;}
+  .outer-flipper.two {left: 562px; top: -246px;}
+  .outer-flipper.three {right: 205px; top: 12px;}
+  .outer-flipper.four {left: 35px; top: -235px;}
+  .outer-flipper.five {left: 57px; top: -231px;}
+  .outer-flipper.six {left: 296px; top: -475px;}
   .outer-flipper.seven {right: 13px; top: -422px;}
   .outer-flipper.eight {left: 21px; top: -419px;}
   .outer-flipper.nine {left: 254px; top: -659px;}
   .outer-flipper.ten {right: 511px; top: -396px;}
 
-  .outer-flipper:hover {background:none;}
+  .outer-flipper:hover {
+    background:none;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 
   .outer-flipper.five div {margin: 4px auto; padding: 29px;}
   .outer-flipper.ten div {margin: 0 auto; padding: 46px;}
