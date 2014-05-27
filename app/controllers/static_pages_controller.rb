@@ -3,11 +3,13 @@ class StaticPagesController < ApplicationController
   
   def index
     @team_members = TeamMember.all
+    @hs = HomeStatement.all
   end
 
   def admin
     @team_members = TeamMember.all
     @faqs = Faq.all
+    @hs = HomeStatement.all
   end
 
 end

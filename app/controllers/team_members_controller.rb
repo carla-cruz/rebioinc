@@ -20,7 +20,7 @@ class TeamMembersController < ApplicationController
   def update
     @team_member = TeamMember.find(params[:id])
     @team_member.update_attributes(team_member_params)
-    redirect_to root_path
+    redirect_to admin_path
   end
 
   def destroy

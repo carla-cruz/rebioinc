@@ -6,4 +6,7 @@ Rebioinc::Application.routes.draw do
   get '/philosophy' => 'static_pages#philosophy'
   get '/our_process' => 'static_pages#our_process'
 
+  resources :team_members
+  resources :faqs
+  resources :home_statements
 end

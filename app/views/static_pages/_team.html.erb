@@ -1,27 +1,11 @@
 <div class="row">
 
-   <h1>The Team</h1>
+ <h1>The Team</h1>
 
-  <div class="col-md-4">
-    <h3>Sam Roberts</h3>
-    <h4>Principal</h4>
-    <p>
-      (Managing Principal) was an angel investor and involved early-on in building Yokayo Biofuels, California’s first waste-oil biodiesel production facility. Sam has spent the last seven years as a consultant and executive coach. He has a master degree in Industrial and Organizational Psychology and has been leading the preliminary stages of this company for the past year and a half, after meeting Brian Eberly while commuting to Yokayo Biofuels where Sam was coaching the CEO.
-    </p>
-  </div>
-
-  <div class="col-md-4">
-    <h3>Brian Eberly</h3>
-    <h4>Principal – Technology</h4>
-    <p>has developed the conceptual engineering for the technology. Brian is currently Chief Operating Officer of Yokayo Biofuels, a producer and distributor of bio-diesel made from waste cooking oils. Brian began research and analysis of the concept for this plant as the thesis of his master of engineering degree program and has continued to refining the engineering analysis of the concept for over seven years.
-    </p>
-  </div> 
-
-  <div class="col-md-4">
-    <h3>Roy Alper</h3>
-    <h4>Principal</h4>
-    <p>
-      has 25 years of experience in the development, regulation and financing of alternative energy systems. Roy is an attorney with extensive experience in negotiating power sales and fuel supply agreements, obtaining environmental and land use approvals for projects and in leading project development from conception to operation. He has founded two companies in the alternative energy space with successful exits from both and led the development of a $300 million waste fuel technology power plant in Australia.
-    </p>
-  </div>  
+ <% @team_members.each do |tm| %>
+ <div class="col-md-4">
+  <h3><%= tm.first_name %> <%= tm.last_name %></h3>
+  <h4><%= tm.title %></h4>
+  <p><%= tm.bio %></p>
 </div>
+<% end %>
