@@ -3,9 +3,13 @@
   width: 850px;
   margin: 0 auto;
   z-index: 1;
+  area:hover {
+    opacity: .5;
+  } 
   p {
     font-size: 12px;
     margin-bottom: 0px;
+    line-height: 15px;
   }
   img {
     width: 850px;
@@ -35,20 +39,18 @@
   }
 
   .tip1 {
-    position: absolute;
     top: 20px;
-    left: 360px;
-    width: 400px;
+    left: 275px;
+    width: 360px;
     img {
-      left: -50px;
+      left: 6px;
       top: 40px;
     }
   }
 
   .tip2 {
-    position: absolute;
-    top: 220px;
-    left: 350px;
+    top: 170px;
+    left: 340px;
     width: 300px;
     img {
       left: 85px;
@@ -57,7 +59,6 @@
   }
 
   .tip3 {
-    position: absolute;
     top: 0px;
     left: 390px;
     width: 300px;
@@ -68,9 +69,8 @@
   }
 
   .tip4 {
-    position: absolute;
     top: 100px;
-    right: 420px;
+    right: 360px;
     width: 300px;
     img {
       right: 5px;
@@ -79,42 +79,38 @@
   }
 
   .tip5 {
-    position: absolute;
-    bottom: 280px;
-    left: 560px;
-    width: 360px;
+    top: 380px;
+    right: 10px;
+    width: 260px;
     img {
-      right: 185px;
-      bottom: 5px;
+      left: 6px;
+      top: 60px;
     }
   }
 
   .tip6 {
-    position: absolute;
-    bottom: 0px;
-    left: 650px;
-    width: 200px;
+    top: 480px;
+    right: 0px;
+    width: 280px;
     img {
-      bottom: 30px;
-      left: -50px;
+      bottom: 60px;
+      left: 6px;
     }
   }
 
   .tip7 {
-    position: absolute;
-    bottom: 320px;
-    left: 395px;
-    width: 200px;
+    top: 520px;
+    right: 10px;
+    width: 265px;
     img {
-      left: 40px;
-      bottom: 5px;
+      left: 6px;
+      bottom: 30px;
     }
   }
 
   .tip8 {
-    position: absolute;
-    bottom: 0px;
-    right: 630px;
+    top: 565px;
+    left: 100px;
     width: 200px;
     img {
       right: 5px;
@@ -123,35 +119,32 @@
   }
 
   .tip9 {
-    position: absolute;
-    bottom: 280px;
-    right: 600px;
-    width: 340px;
+    top: 155px;
+    left: 40px;
+    width: 260px;
     img {
-      bottom: 5px;
-      left: 190px;
+      right: 6px;
+      top: 70px;
     }
   }
 
   .tip10 {
-    position: absolute;
-    bottom: 390px;
-    right: 430px;
+    top: 248px;
+    left: 190px;
     width: 300px;
     img {
-      left: -50px;
+      left: 6px;
       top: 120px;
     }
   }
 
   .tip11 {
-    position: absolute;
     top: 150px;
-    left: 420px;
-    width: 200px;
+    left: 440px;
+    width: 245px;
     img {
       top: 80px;
-      left: -50px;
+      left: 6px;
     }
   }
 
