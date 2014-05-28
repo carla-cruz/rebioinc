@@ -1,35 +1,49 @@
 <div class="our-process-container">
-  <%= image_tag('process.jpg', class: 'header img-responsive') %>
+  <%= image_tag('process.jpg', class: 'header img-responsive', id: 'biomodel-img') %>
   <img src="assets/Biomodel-full_01.jpg" usemap="#our-process"/>
 
   <map name="our-process">
-    <area id="1" shape="rect" coords="46,15,334,160" href="" alt="Biomass">
+    <area id="1" shape="rect" coords="0,0,286,158" alt="Biomass">
 
-    <area id="2" shape="rect" coords="387,17,582,192" href="" alt="Ethanal Distillation">
+    <area id="2" shape="rect" coords="300,0,525,163" alt="Ethanal Distillation">
 
-    <area id="3" shape="rect" coords="722,51,917,226" href="" alt="Gasoline Pump">
+    <area id="3" shape="rect" coords="626,35,800,199" alt="Gasoline Pump">
 
-    <area id="4" shape="rect" coords="546,243,791,370" href="" alt="Sugar Free Biomass">
+    <area id="4" shape="rect" coords="442,185,701,395" alt="Sugar Free Biomass">
 
-    <area id="5" shape="rect" coords="433,438,637,592" href="" alt="Gasifier">
+    <area id="5" shape="rect" coords="328,382,565,542" alt="Gasifier">
 
-    <area id="6" shape="rect" coords="458,624,574,714" href="" alt="Electricity">
+    <area id="6" shape="rect" coords="360,559,505,652" alt="Electricity">
 
-    <area id="7" shape="rect" coords="527,732,643,822" href="" alt="Right Tower">
+    <area id="7" shape="rect" coords="435,644,550,740" alt="Right Tower">
 
-    <area id="8" shape="rect" coords="382,732,498,822" href="" alt="Left Tower">
+    <area id="8" shape="rect" coords="312,644,427,740" alt="Left Tower">
 
-    <area id="9" shape="rect"  coords="361,247,477,337" href="" alt="Heat">
+    <area id="9" shape="rect"  coords="248,165,440,389" alt="Heat">
 
-    <area id="10" shape="rect" coords="78,218,265,414" href="" alt="Soil and Green Sprout">
+    <area id="10" shape="rect" coords="22,187,234,421" alt="Soil and Green Sprout">
 
   </map>
 
 
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#1').hover(function(){$('.tip1').toggle();});
+  $('#6').hover(function(){6('.tip2').toggle();});
+  $('#3').hover(function(){$('.tip3').toggle();});
+  $('#4').hover(function(){$('.tip4').toggle();}); 
+  $('#5').hover(function(){$('.tip5').toggle();}); 
+  $('#6').hover(function(){$('.tip6').toggle();}); 
+  $('#7').hover(function(){$('.tip7').toggle();}); 
+  $('#8').hover(function(){$('.tip8').toggle();}); 
+  $('#9').hover(function(){$('.tip9').toggle();}); 
+  $('#10').hover(function(){$('.tip10').toggle();}); 
+});
+
+</script>
 
 
-  <div class="outerTip tip1" >
-    <img src="assets/left-tip.png">
+  <div class="outerTip tip1">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>Biomass is the leftover waste/residue after agriculture processes.  Biomass can be used as a feedstock for clean energy.  Biomass rich in sugars (carbohydrates, sucrose, lactose, etc) can be converted into ethanol (99% alcohol) and sold into the vehicle fuels market.</p>
@@ -37,7 +51,6 @@
   </div>
 
   <div class="outerTip tip2">
-    <img class="big" src="assets/top-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>The first process in our system turns the sugar biomass into fuel-grade ethanol. Fuel-grade ethanol is 99.9% alcohol (198 proof), and our gasoline supply currently has 10% ethanol blended into it already. Almost identical to the process for making drinkable spirits, ethanol is made by fermenting organic material and distillation.  The main difference is the removal of all excess water.</p>
@@ -47,7 +60,6 @@
   </div>
 
   <div class="outerTip tip3">
-    <img src="assets/right-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>Ethanol is pure alcohol, which drastically reduces tailpipe emissions. In fact, you may have seen placards next to the gas pump that say “Up to 10% of the gasoline purchased at this pump is fuel-grade ethanol.” The EPA has recently approved a 15% ethanol blend in all gasoline, which means demand for ethanol is going to rise significantly in the coming years. Most of the ethanol consumed in California is produced in the Midwest and shipped by rail.  The growth of fuel crops, and transportation of fuel once it is produced comes with its own set of ethical implications.  The ethanol we are producing is created from local and regional  waste streams, and consumed locally.</p>
@@ -57,7 +69,6 @@
   </div>
 
   <div class="outerTip tip4">
-    <img src="assets/right-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>Once the sugar in pomace is converted to alcohol there is still a waste product: biomass that has no sugar! This is an organic material that still has latent energy. We dry and pelletize this material and put it into a Biochar Reactor, or what is commonly called a Gasifier.  Gasifying this remaining waste product produces all of the heat and electricity needed to fuel the ethanol unit, with excess electricity being used on-site to reduce other electrical loads.</p>
@@ -65,7 +76,6 @@
   </div>
 
   <div class="outerTip tip5">
-    <img src="assets/left-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>Gasification is an industrial process that takes organic waste and burns it with a very low presence of oxygen. This does a few things: 1) it produces a flammable gas called syngas (no smoke); 2) it sequesters all the remaining carbon in the form of a charcoal-like substance called Biochar, and; 3) it creates a lot of heat. The syngas is used to fire an internal combustion engine to make electricity (generator set).  The Biochar is used as a high-grade soil amendment.   The heat is used to make ethanol, as well as off-set the thermal needs of other on-site facilities.</p>
@@ -73,7 +83,6 @@
   </div>
 
   <div class="outerTip tip6">
-    <img src="assets/left-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>The syngas produced by the gasifier is used to make “green” electricity. By co-locating our plant at industrial facilities we not only supply electricity to our own units, but we are able to supply base load electric requirements to other facilities on-site.  What is not used on-site can be poured back into the grid to help meet California’s Carbon Reduction Standards (the most ambitious in the country).</p>
@@ -82,7 +91,6 @@
   </div>
 
   <div class="outerTip tip7">
-    <img src="assets/left-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>The methane gas from the digester is used to make “green” electricity. By co-locating our plant next to industrial facilities we supply base load electric requirements, and pour the rest back into the grid to help California’s meet its Carbon Reduction Standards (the most stringent in the country).</p>
@@ -92,7 +100,6 @@
   </div>
 
   <div class="outerTip tip8">
-    <img src="assets/right-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>Biochar reactors produce three basic things: Syngas, Biochar, and Heat.  Syngas is a flammable, clean burning gas that is used to create more green electricity via a built-in generator, and fed back to the grid.</p>
@@ -100,7 +107,6 @@
   </div>
 
   <div class="outerTip tip9">
-    <img src="assets/right-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>Biochar production produces a lot of heat, and most stand-alone biochar reactors simple release their heat into the atmosphere.  By co-locating ours next to the ethanol distillation unit we are able to capture and use (cogenerate) all of that heat needed to fuel the ethanol production process.  This eliminates an operating cost, thus helping to “close the loop” both economically and environmentally.</p>
@@ -108,7 +114,6 @@
   </div>
 
   <div class="outerTip tip10">
-    <img src="assets/left-tip.png">
     <div class="innerTip">
       <div class="cross"><a href="">&#735;</a></div>
       <p>Biochar is a high-grade soil amendment that all research has shown has enormous benefits to the soil. Crop yields have been proven to bump 3-5 times with its use, water retention has in the soil increases, and biochar has also been shown to mitigate many soil borne diseases.</p>
@@ -118,4 +123,3 @@
   </div>
 
 </div>
-
