@@ -3,9 +3,8 @@
   width: 850px;
   margin: 0 auto;
   z-index: 1;
-  area:hover {
-    opacity: .5;
-  } 
+  height: 1000px;
+  padding-bottom: 60px;
   p {
     font-size: 12px;
     margin-bottom: 0px;
@@ -15,6 +14,7 @@
     width: 850px;
     position: absolute;
     z-index: -1;
+    display: block;
   }
   .outerTip {
     padding: 20px;

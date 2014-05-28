@@ -118,21 +118,30 @@ body {
       padding-right: 0;
     }
   }
-
-  h3{
-    display:inline-block;
-  }
+img {
+  display: block;
+  margin: 0 auto;
+}
 }
 
 #process{
   display: block;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
   margin: 0 auto;
   margin-top:0;
   padding: 20px;
   padding-top: 100px;
-  height: 1000px;
+  height: 1100px;
   position: relative;
+
+  .header {
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 542px;
+    margin: 0 auto;
+  }
 }
 
 
