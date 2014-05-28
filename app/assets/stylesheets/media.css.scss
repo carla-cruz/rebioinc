@@ -66,16 +66,25 @@
     }
   }
   .block1 {
-    height: 600px !important;
+    height: 500px !important;
+    padding-top: 60px !important;
     .block-copy {
       margin-top: 0px !important;
-      background-color: rgba(0, 0, 0, 0.2) !important;
+      background-color: rgba(0, 0, 0, 0.3) !important;
+    }
+  }
+  .block2 {
+    height: 680px !important;
+    .block-copy {
+      margin-top: 0px !important;
+      background-color: rgba(0, 0, 0, 0.3) !important;
     }
   }
   .block3 {
-    height: 300px !important;
+    height: 460px !important;
+    padding-bottom: 60px !important;
     .block-copy {
-      padding-top: 0px !important;
+      background-color: rgba(0, 0, 0, 0.3) !important;
     }
   }
 }
