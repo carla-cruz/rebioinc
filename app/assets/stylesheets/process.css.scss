@@ -1,7 +1,14 @@
-/*///////////// flipper tooltips /////////////*/
+/*///////////// sliced image /////////////*/
+
+.model-image{
+  cursor:pointer;
+  display:inline-block;
+}
 
 
 /*///////////// original tooltips /////////////*/
+.relative{position:relative;}
+
 .our-process-container {
   position: relative;
   width: 850px;
@@ -14,12 +21,7 @@
     margin-bottom: 0px;
     line-height: 15px;
   }
-  img {
-    width: 800px;
-    position: absolute;
-    z-index: -1;
-    display: block;
-  }
+
   .outerTip {
     padding: 20px;
     display: none;
@@ -43,8 +45,8 @@
   }
 
   .tip1 {
-    top: 140px;
-    left: 275px;
+   left: 238px;
+    top: -37px;
     width: 360px;
     img {
       left: 6px;
@@ -53,8 +55,8 @@
   }
 
   .tip2 {
-    top: 310px;
-    left: 340px;
+    left: 272px;
+    top: 155px;
     width: 300px;
     img {
       left: 85px;
@@ -63,8 +65,8 @@
   }
 
   .tip3 {
-    top: 120px;
-    left: 390px;
+    left: 360px;
+    top: 7px;
     width: 300px;
     img {
       right: 6px;
@@ -73,19 +75,19 @@
   }
 
   .tip4 {
-    top: 220px;
-    right: 360px;
+    left: 170px;
+    top: -43px;
     width: 300px;
     img {
-      right: 5px;
-      top: 160px;
+      left: 5px;
+      top: 41px;
     }
   }
 
   .tip5 {
-    top: 500px;
-    right: 10px;
-    width: 260px;
+    left: 149px;
+    top: 0;
+    width: 300px;
     img {
       left: 6px;
       top: 60px;
@@ -93,73 +95,52 @@
   }
 
   .tip6 {
-    top: 600px;
-    right: 0px;
+    right: 235px;
+    top: 0;
     width: 280px;
     img {
-      bottom: 60px;
-      left: 6px;
+      top: 60px;
+      right: 6px;
     }
   }
 
   .tip7 {
-    top: 640px;
-    right: 10px;
-    width: 265px;
+  right: 182px;
+    top: -130px;
+    width: 300px;
     img {
-      left: 6px;
+      right: 6px;
       bottom: 30px;
     }
   }
 
   .tip8 {
-    top: 715px;
-    left: 100px;
-    width: 200px;
+ right: 100px;
+    top: 15px;
+    width: 300px;
     img {
       right: 5px;
-      bottom: 30px;
+      top: 38px;
     }
   }
 
   .tip9 {
-    top: 285px;
-    left: 40px;
-    width: 260px;
+   left: 96px;
+    top: -20px;
+    width: 300px;
     img {
-      right: 6px;
-      top: 70px;
+   left: 6px;
+    top: 36px;
     }
   }
 
   .tip10 {
-    top: 368px;
-    left: 190px;
+   right: 102px;
+    top: -20px;
     width: 300px;
     img {
-      left: 6px;
-      top: 120px;
-    }
-  }
-
-  .tip11 {
-    top: 270px;
-    left: 440px;
-    width: 245px;
-    img {
-      top: 80px;
-      left: 6px;
-    }
-  }
-
-  .cross {
-    font-size: 40px;
-    float: right;
-    margin-top: -20px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    a {
-      text-decoration: none;
+   right: 6px;
+    top: 36px;
     }
   }
 
