@@ -1,6 +1,7 @@
 <div class="row">
 
  <%= image_tag('team.jpg') %>
+ <%if @team_members.length > 0 %>
 
  <% @team_members.each do |tm| %>
  <div class="col-md-4">
@@ -8,4 +9,5 @@
   <h4><%= tm.title %></h4>
   <p><%= tm.bio %></p>
 </div>
+<% end %>
 <% end %>

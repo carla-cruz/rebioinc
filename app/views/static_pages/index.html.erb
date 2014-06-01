@@ -7,9 +7,9 @@
   <div class="block block1">
     <div class="block-copy" class="col-sm-12">
       <div class="center-block col-sm-10">
-
+        <%if @hs.length > 0 %>
         <h2><%= @hs[0].phrase %></h2>
-
+        <% end %>
       </div>
     </div>
   </div>
@@ -17,7 +17,9 @@
   <div class="block block2">
     <div class="block-copy" class="col-sm-12">
       <div class="center-block col-sm-10">
+        <%if @hs.length > 0 %>
         <h2><%= @hs[1].phrase %></h2>
+        <% end %>
       </div>
     </div>
   </div>
@@ -31,7 +33,9 @@
   <div class="block block3">
     <div class="block-copy" class="col-sm-12">
       <div class="center-block col-sm-10">
+        <%if @hs.length > 0 %>
         <h2><%= @hs[2].phrase %></h2>
+        <% end %>
       </div>
     </div>
   </div>
