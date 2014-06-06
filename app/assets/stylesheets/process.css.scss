@@ -4,18 +4,24 @@
   cursor:pointer;
   display:inline-block;
 }
-
+#process #img-div {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
 
 /*///////////// original tooltips /////////////*/
 .relative{position:relative;}
 
 .our-process-container {
+
   position: relative;
   width: 850px;
   margin: 0 auto;
   z-index: 1;
   height: 1000px;
   padding-bottom: 60px;
+  margin-top: 20px;
   p {
     font-size: 12px;
     margin-bottom: 0px;
