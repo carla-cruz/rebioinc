@@ -9,9 +9,16 @@
   
   div{margin:10px 0 40px 0;border-bottom: 2px dotted #CCC;}
 
+
   img{display:block;margin:0 auto 15px auto;}
   p{font-size:16px;line-height:1.2;}
 
+}
+
+#process #img-div {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -19,12 +26,14 @@
 .relative{position:relative;}
 
 .our-process-container {
+
   position: relative;
   width: 850px;
   margin: 0 auto;
   z-index: 1;
   height: 1000px;
   padding-bottom: 60px;
+  margin-top: 20px;
   p {
     font-size: 12px;
     margin-bottom: 0px;
