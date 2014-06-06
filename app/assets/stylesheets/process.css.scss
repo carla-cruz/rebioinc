@@ -5,8 +5,17 @@
   display:inline-block;
 }
 
+.mobile-our-process-container{
+  
+  div{margin:10px 0 40px 0;border-bottom: 2px dotted #CCC;}
 
-/*///////////// original tooltips /////////////*/
+  img{display:block;margin:0 auto 15px auto;}
+  p{font-size:16px;line-height:1.2;}
+
+}
+
+
+/*///////////// tooltips /////////////*/
 .relative{position:relative;}
 
 .our-process-container {
