@@ -149,7 +149,7 @@ body {
     margin-left: 20px;
   }
   .admin-links {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     a {
       margin-right: 20px;
       
@@ -181,4 +181,23 @@ p.alert {
   text-align: center;
   padding: 0;
   padding-top: 10px;
+}
+
+.admin-nav {
+  margin:25px auto;
+  ul {
+    list-style-type:none;
+    width:600px;
+
+    li {
+    border-right: solid 1px #ccc;
+    display:inline-block;
+    text-align:center;
+    width: 33%;
+    }
+
+    li:last-of-type {border-right: none;}
+
+    } 
+
 }

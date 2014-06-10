@@ -8,7 +8,15 @@
 
   <h1>Admin Page</h1>
 
-  <div class="members">
+<div class="admin-nav">
+<ul>
+ <li><a href="#members">Team Members</a></li>
+ <li><a href="#faq">FAQ</a></li>
+ <li><a href="#homepage-s">Homepage Statments</a></li>
+</ul>
+</div>
+
+  <div class="members row" id="members">
     <h3>Team Members <span><%= link_to "add another", new_team_member_path %><span></h3>
     <ul class="clearfix col-xs-12">
       <% @team_members.each do |tm| %>
@@ -16,25 +24,24 @@
         Name: <%= tm.first_name %> <%= tm.last_name %>
         <br>
         Title: <%= tm.title%>
-        <br>
+        <br><br>
         Bio: <%= tm.bio %>
         <div class="admin-links">
           <%= link_to "Edit", edit_team_member_path(tm), class: "edit_link" %>
           <%= link_to "Delete", tm, method: :delete, class: "delete_link", remote: true %>
-
         </div>
       </li>
       <% end %>
     </ul>
   </div>
 
-  <div class="faqs">
+  <div class="faqs row" id="faq">
     <h3>Frequently Asked Questions <span><%= link_to "add another", new_faq_path %><span></h3>
     <ul class="clearfix col-xs-12">
       <% @faqs.each do |faq| %>
       <li>
         Q: <%= faq.question %>
-        <br>
+        <br><br>
         A: <%= faq.answer %>
         <div class="admin-links">
           <%= link_to "Edit", edit_faq_path(faq), class: "edit_link" %>
@@ -46,7 +53,7 @@
     </ul>
   </div>
 
-  <div class="hs">
+  <div class="hs row" id="homepage-s">
     <h3>Home Page Statements</h3>
     <ol class="clearfix col-xs-12">
       <% @hs.each do |hs| %>
