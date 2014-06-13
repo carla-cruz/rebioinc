@@ -14,7 +14,7 @@ body {
 }
 
 .bg1 {
-  background: url('Sonoma-Winery.jpg') repeat-y;
+  background: url('Sonoma-Winery.jpg') center top;
   position: fixed;
   padding-top: 300px;
   width: 100%;
@@ -185,9 +185,12 @@ p.alert {
 
 .admin-nav {
   margin:25px auto;
+
+  h3{padding-top:50px;}
+  
   ul {
     list-style-type:none;
-    width:600px;
+    width:650px;
 
     li {
     border-right: solid 1px #ccc;
