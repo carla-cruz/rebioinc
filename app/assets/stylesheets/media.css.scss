@@ -66,25 +66,37 @@
     }
   }
   .block1 {
-    height: 500px !important;
+    height: 210px !important;
     padding-top: 60px !important;
     .block-copy {
       margin-top: 0px !important;
       background-color: rgba(0, 0, 0, 0.3) !important;
+      h2 {
+        font-size: 22px !important;
+        line-height: 28px !important;
+      }
     }
   }
   .block2 {
-    height: 680px !important;
+    height: 300px !important;
     .block-copy {
       margin-top: 0px !important;
       background-color: rgba(0, 0, 0, 0.3) !important;
+      h2 {
+        font-size: 22px !important;
+        line-height: 28px !important;
+      }
     }
   }
   .block3 {
-    height: 460px !important;
+    height: 245px !important;
     padding-bottom: 60px !important;
     .block-copy {
       background-color: rgba(0, 0, 0, 0.3) !important;
+      h2 {
+        font-size: 22px !important;
+        line-height: 28px !important;
+      }
     }
   }
 }
