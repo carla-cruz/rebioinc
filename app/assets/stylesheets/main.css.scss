@@ -133,9 +133,14 @@ body {
   margin: 0 auto;
   margin-top:0;
   padding: 20px;
-  padding-top: 100px;
   position: relative;
-
+  a#process-anchor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: -80px;
+    right: 0;
+  }
   .header {
     padding-bottom: 60px;
     position: relative;
