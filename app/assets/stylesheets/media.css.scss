@@ -56,7 +56,7 @@
   }
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 580px) { 
   body { 
     font-size:100%;
     margin: 0;
@@ -103,5 +103,14 @@
       }
     }
   }
+  #team {
+    h4 {
+      font-size: 22px !important;
+    }
+  p {
+    font-size: 22px !important;
+    line-height: 28px !important;
+  }
+}
 }
 
